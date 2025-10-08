@@ -1,0 +1,48 @@
+body{
+    margin: 5px;
+    height: 100vh;
+    background-image: url(medias/tecnologia.gif);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    color: white;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+.header h1{
+    margin: 30px;
+}
+.image{
+    background-color: black;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.container {
+    display: flex;
+  }
+  fieldset {
+    flex: 1; 
+    height: 110px;
+    margin: 0;
+    background-color: rgb(97, 144, 232);
+    background-size: cover;
+    color: black;
+  }
+  legend{
+    font-family: cursive;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    background-color: rgb(126, 116, 116);
+  }
+  section{
+    flex: 1; 
+    height: 110px;
+    margin: 0; 
+  }
