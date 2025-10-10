@@ -1,0 +1,99 @@
+/* Acceuil */
+body{
+    background-color: cyan;
+    margin: 10px;
+}
+.titre1{
+    display: flex;
+    justify-self: center;
+    font-size: 90px;
+    border: 2px solid black;
+    width: fit-content;
+}
+.article1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    margin: 0px;
+    padding: 0px;
+    color: grey;
+    position: fixed;
+    bottom: 0;
+    left: 1;
+}
+
+
+/* Contact */
+
+
+.titre2 {
+    font-size: 5em;         
+    border-bottom: 2px solid darkturquoise; 
+    width: fit-content;
+    color: darkturquoise;
+    display: flex;
+    justify-self: center;
+  }
+.body2{
+    background-color: blanchedalmond;
+  }
+  .fieldset1{
+    width: fit-content;
+  }
+.icons{
+    width: 50px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    margin: 0px;
+    padding: 0px;
+    color: grey;
+    width: 300px;
+}
+.links{
+    display: flex;
+    align-items: end;
+    margin: 0px;
+    gap: 0px;
+}
+.revolver1{
+    display: flex;
+}
+.revolver2{
+    display: flex;
+    justify-content: space-between;
+    width: 706px;
+}
+
+/* CV */
+
+.body3 {
+    background-color:  bisque;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.tytol {    
+    font-size: 5em;                 
+    border-bottom: 2px solid black; 
+    padding-bottom: 1px;       
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;    
+    width: fit-content;    
+  }
+  .legend1{
+    font-size:1.5em;
+  }
+  .fieldset2{
+    height: 190px;
+  }
