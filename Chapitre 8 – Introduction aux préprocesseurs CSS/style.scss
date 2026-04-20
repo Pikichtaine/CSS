@@ -1,0 +1,31 @@
+$color_principal:red;
+$el_borde_radius:999px;
+$la_talla:300px;
+$la_talla_del_borde:20px;
+$el_color_del_borde:black;
+body{
+    overflow: hidden;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: $color_principal;
+    border: $la_talla_del_borde solid $el_color_del_borde;
+    border-radius: $el_borde_radius;
+    height: $la_talla;
+    width: $la_talla;
+
+&:hover{
+    background-color: darken($color: $color_principal, $amount: 10%);
+}
+&:active{
+    transform: scale(0.95);
+    box-shadow: 0 5px 0 #000;
+}
+
+
+}

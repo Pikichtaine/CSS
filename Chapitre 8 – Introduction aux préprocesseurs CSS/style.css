@@ -1,0 +1,23 @@
+body {
+  overflow: hidden;
+  height: 100vh;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: red;
+  border: 20px solid black;
+  border-radius: 999px;
+  height: 300px;
+  width: 300px;
+}
+button:hover {
+  background-color: #cc0000;
+}
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0 5px 0 #000;
+}/*# sourceMappingURL=style.css.map */
